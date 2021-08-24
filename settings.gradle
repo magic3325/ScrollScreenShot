@@ -1,0 +1,4 @@
+include ':PhotoSelector'
+include ':app'
+rootProject.name = "ScrollScreenShot"
+include ':opencvLib'

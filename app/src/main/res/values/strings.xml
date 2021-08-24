@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ScrollScreenShot</string>
+    <string name="scrolling">Taking Scrolling Screenshot ... \nTouch scrolling area to end</string>
+    <string name="stitching">Stitching ...</string>
+    <string name="save">Save  stitche photo...</string>
+    <string name="stitch_limit">Scrollshot length limit reached</string>
+    <string name="stitch_sucess">Scrollshot take sucess</string>
+    <string name="preview_title">Screenshot preview</string>
+    <string name="edit">Edit</string>
+    <string name="share">Share</string>
+    <string name="delete">Share</string>
+    <string name="scroll_screenshot">Long Page</string>
+    <string name="stitcher_title">PhotoSplicing</string>
+
+    <string name="cut_left">左边裁剪宽度</string>
+    <string name="cut_top">顶部裁剪高度</string>
+    <string name="cut_right">右边裁剪宽度</string>
+    <string name="cut_bottom">底部裁剪宽度</string>
+    <string name="com_width">图片匹配宽度</string>
+    <string name="com_height">图片匹配高度</string>
+</resources>

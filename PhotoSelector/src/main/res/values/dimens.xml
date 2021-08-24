@@ -1,0 +1,7 @@
+<resources>
+
+
+    <dimen name="head_bar_height">48dp</dimen>
+    <dimen name="bottom_bar_height">0dp</dimen>
+
+</resources>

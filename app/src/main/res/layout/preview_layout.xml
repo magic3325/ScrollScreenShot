@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_root"
+    android:background="@android:color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <com.water.scrollscreenshot.view.LargeImageView
+        android:id="@+id/preview_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <FrameLayout android:id="@+id/header"
+        android:visibility="visible"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/header_background"
+        />
+
+    <FrameLayout android:id="@+id/footer"
+        android:visibility="visible"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+
+        android:paddingTop="30dp"
+        android:background="@drawable/footer_background"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="48dp"
+            >
+            <Button
+                android:id="@+id/photo_share"
+                android:drawableTop="@drawable/ic_menu_share"
+                android:background="@drawable/transparent_button_background"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="@string/share"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:onClick="shareAction"
+               />
+            <Button
+                android:id="@+id/photo_edit"
+                android:drawableTop="@drawable/ic_menu_edit"
+                android:background="@drawable/transparent_button_background"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:text="@string/edit"
+                android:onClick="editAction"
+                />
+            <Button
+                android:id="@+id/deleteAction"
+                android:drawableTop="@drawable/ic_menu_delete"
+                android:background="@drawable/transparent_button_background"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:text="@string/delete"
+                android:onClick="editAction"
+                />
+
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

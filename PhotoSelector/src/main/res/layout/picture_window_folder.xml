@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.water.photoselector.FolderPopWindow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/folder_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/head_bar_height"
+    android:visibility="gone">
+    <View
+        android:id="@+id/cover_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/head_bar_height"
+        android:background="#a8000000"
+        android:visibility="visible"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/folder_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:background="#ff393a3e"
+
+        android:scrollbars="none" />
+</com.water.photoselector.FolderPopWindow>
