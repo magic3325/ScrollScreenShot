@@ -45,4 +45,4 @@ Android 手机,可滚动截屏,实现长截图的功能；
 
 
 有问题咨询可邮件;
-liutao@gmail.com;
+liutao3325@gmail.com;
